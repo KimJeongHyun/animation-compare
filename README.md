@@ -1,27 +1,19 @@
-# React + TypeScript + Vite
+# animation-compare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+setInterval 방식의 애니메이션과 requestAnimationFrame 방식의 애니메이션이 어떤 차이를 보이는지에 대한 레포지토리.
 
-Currently, two official plugins are available:
+positioning + setInterval 방식과
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+transform + requestAnimationFrame 방식을 비교함.
 
-## Expanding the ESLint configuration
+## 실제 화면
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+https://github.com/KimJeongHyun/animation-compare/assets/23470125/8adb3ddb-4bf0-46b9-8653-fec492874400
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+## Explanation link
+
+https://velog.io/@leitmotif/%EB%A9%8B%EC%A7%84-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%84%EC%82%AC%EB%90%98%EA%B8%B0
